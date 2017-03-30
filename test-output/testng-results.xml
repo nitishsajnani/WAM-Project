@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26624" started-at="2017-03-30T11:11:36Z" finished-at="2017-03-30T11:12:03Z">
+  <suite name="Suite" duration-ms="26715" started-at="2017-03-30T11:24:10Z" finished-at="2017-03-30T11:24:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="26624" started-at="2017-03-30T11:11:36Z" finished-at="2017-03-30T11:12:03Z">
+    <test name="Test" duration-ms="26715" started-at="2017-03-30T11:24:10Z" finished-at="2017-03-30T11:24:37Z">
       <class name="ClassesProject.VerifyValidLogin">
-        <test-method status="PASS" signature="checkvaliduser()[pri:0, instance:ClassesProject.VerifyValidLogin@2669b199]" name="checkvaliduser" duration-ms="26608" started-at="2017-03-30T20:11:36Z" finished-at="2017-03-30T20:12:03Z">
+        <test-method status="PASS" signature="checkvaliduser()[pri:0, instance:ClassesProject.VerifyValidLogin@3c3d9b6b]" name="checkvaliduser" duration-ms="26693" started-at="2017-03-30T20:24:10Z" finished-at="2017-03-30T20:24:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkvaliduser -->
       </class> <!-- ClassesProject.VerifyValidLogin -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
