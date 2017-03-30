@@ -18,7 +18,7 @@ public class VerifyValidLogin {
 		WebDriver driver= Browser.startbrowser("Chrome","https://www.adobe.com/in/");
 		
 	LoginPage logindetails=PageFactory.initElements(driver, LoginPage.class);
-	logindetails.login_wordpress("nitish.sajnani18@gmail.com","Ni_9899639885");
+	logindetails.login_wordpress("nitish.sajnani18@gmail.com","Ni_9899639885","photoshop");
 	//login successful
 	}
 	

@@ -1,5 +1,7 @@
 package BrowserFactory;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -21,8 +23,9 @@ public class Browser{
 		
 		else if(browserName.equals("Chrome"))
 	
-		{System.setProperty("webdriver.chrome.driver", "E://Softwares//Java softwares//chromedriver.exe");
+		{System.setProperty("webdriver.chrome.driver", "C://Users//Tester//Desktop//Softwares//chromedriver.exe");
 			driver=new ChromeDriver();
+			driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS) ;
 			
 			
 		}
